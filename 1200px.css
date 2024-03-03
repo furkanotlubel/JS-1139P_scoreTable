@@ -1,0 +1,19 @@
+.team-name{
+    font-size: 1.3rem;
+}
+.score{
+    font-size: 5rem;
+}
+.buttons .up, .down, .edit{
+    cursor: pointer;
+    background: transparent;
+    border: 0.5px solid #eeeeee6f;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #fff;
+    transition: all .3s ease;
+    font-weight: 400;
+}
+.team{
+    height: 50%;
+}

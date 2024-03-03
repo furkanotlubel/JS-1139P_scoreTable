@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="1200px.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="1100px.css">
+
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="768px.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="team">
+            <button class="change-team-name" id="changeTeamNameA">Change Team</button>
+            <div class="flex">
+                <p class="team-name" id="teamNameA">Barcelona</p>
+                <img id="team-1-img" class="img" src="./img/team-photos/adanademir.png" alt="Barcelona">
+            </div>
+            <div class="score" id="scoreA">0</div>
+            <div class="buttons">
+                <button class="up" id="upButtonA">+</button>
+                <button class="edit" id="resetButtonA">RES</button>
+                <button class="down" id="downButtonA">-</button>
+            </div>
+        </div>
+
+        <div class="team">
+            <button class="change-team-name" id="changeTeamNameB">Change Team</button>
+            <div class="flex">
+                <p class="team-name" id="teamNameB">Real Madrid</p>
+                <img id ="team-2-img" class="img" src="./img/team-photos/real-madrid.png" alt="Real Madrid">
+            </div>
+            <div class="score" id="scoreB">0</div>
+            <div class="buttons">
+                <button class="up" id="upButtonB">+</button>
+                <button class="edit" id="resetButtonB">RES</button>
+                <button class="down" id="downButtonB">-</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
